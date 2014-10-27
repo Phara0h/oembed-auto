@@ -1,6 +1,6 @@
 {
-  "name": "oembed-auto",
-  "version": "0.0.3",
+  "name": "oembed-auto-gc",
+  "version": "0.0.4",
   "description": "make an oEmbed request with a content url",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:inspiredjw/oembed-auto.git"
+    "url": "git@github.com:jtwhissel/oembed-auto.git"
   },
   "keywords": [
     "oEmbed",
@@ -23,7 +23,7 @@
   "author": "InspiredJW",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/inspiredjw/oembed-auto/issues"
+    "url": "https://github.com/jtwhissel/oembed-auto/issues"
   },
   "dependencies": {
     "request": "~2.27.0"
