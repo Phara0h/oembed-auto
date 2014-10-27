@@ -1,6 +1,6 @@
 {
   "name": "oembed-auto-gc",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "make an oEmbed request with a content url",
   "main": "index.js",
   "scripts": {
