@@ -289,7 +289,7 @@
     "http://demo.clikthrough.com/services/oembed/": [
         "^http(?:s)?://demo\\.clikthrough\\.com/theater/video/.+$"
     ],
-    "http://api.imgur.com/oembed?url=/":[
+    "http://api.imgur.com/oembed":[
       "^http(?:s)?://i\\.imgur\\.com/gallery/.+$",
       "^http(?:s)?://imgur\\.com/gallery/.+$"
     ]
