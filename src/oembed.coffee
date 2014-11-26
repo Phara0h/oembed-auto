@@ -16,7 +16,7 @@ module.exports = (str, callback) ->
 					break
 
 			if patternMatch
-				oembedUrl = "#{url}?url=#{escape str}&format=json"
+				oembedUrl = "#{url}?url=#{escape str}&format=json&scheme=https"
 				break
 
 		if oembedUrl?
@@ -28,7 +28,7 @@ module.exports = (str, callback) ->
 					if res.statusCode is 200
 						body = JSON.parse unescape body
 						callback?(err, body)
-					
+
 					else
 						callback?(new Error "request could not be made. ERROR: #{res.statusCode}")
 
